@@ -5,3 +5,6 @@ This is an HTML, CSS, JavaScript personal diary website developed as Section 4 o
 Change h1 title to "My Personal Diary"
 Create a new form with an ID of "entryForm"
 Inside the form, create a textarea with class of "entry-textbox"
+
+### Challenge 2
+Add a button - and make the button render underneath the textarea.
