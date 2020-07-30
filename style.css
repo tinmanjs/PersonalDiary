@@ -1,6 +1,8 @@
 body {
   margin: 5%;
   font-family: 'Gill Sans', 'Gill Sans MT';
+  display: grid;
+  justify-content: center;
 }
 
 .title {
@@ -18,11 +20,16 @@ body {
   background-color: #FFA62B;
   border: unset;
   border: none;
+  border-color: none;
+}
+
+.entry-textbox:focus {
+  outline: none;
 }
 
 #entryForm .button {
   border: unset;
   border-radius: 10px;
   padding: 1em;
-  margin-left: 33%;
+  margin-left: 75%;
 }
