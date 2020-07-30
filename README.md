@@ -15,3 +15,10 @@ Add a button - and make the button render underneath the textarea.
   - Give the button rounded edges using the border-radius property
   - Use the padding property to add space between the button's text and its edges
   - move the button to the right of the page
+
+### Challenge 4
+Remove the CSS outline on the input field focus
+
+### Challenge 5
+- Create a variable named "entryForm" and use the document.getElementById method to make its value the entryForm from our HTML document.
+- Add an event listener to the entryForm variable that prevents the page from reloading whenever the submit button is clicked.
