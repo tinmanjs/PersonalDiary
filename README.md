@@ -22,3 +22,7 @@ Remove the CSS outline on the input field focus
 ### Challenge 5
 - Create a variable named "entryForm" and use the document.getElementById method to make its value the entryForm from our HTML document.
 - Add an event listener to the entryForm variable that prevents the page from reloading whenever the submit button is clicked.
+
+## Challenge 6
+- Create a new section in the index.html and give it an id of "entries"
+- Create a new variable named "entriesSection" and assign it a value of the HTML section we just created
