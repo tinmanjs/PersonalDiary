@@ -14,6 +14,7 @@ const handleForm = e => {
     const entryDiv = document.createElement('div')
     entryDiv.className = 'single-entry'
     entryDiv.innerHTML = entryTextbox[0].value
+    entryDiv.style.display = 'none'
     entriesSection.appendChild(entryDiv)
     entryTextbox[0].value = ""
   } 

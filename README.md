@@ -41,3 +41,6 @@ Remove the CSS outline on the input field focus
 
 ### Challenge 9
 - Clear the entry textbox when the submit button is clicked
+
+### Challenge 10
+-   Hide the user's entry by default after it is appended to the entries section
