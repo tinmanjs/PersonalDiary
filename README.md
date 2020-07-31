@@ -38,3 +38,6 @@ Remove the CSS outline on the input field focus
 - Give the entries section the background color, #16697A (or any other color of your choice)
 - Give it the text color, #EDE7E3 (if you used your own color, this should be something that is visible on the background)
 - Like we did before, give it rounded edges.
+
+### Challenge 9
+- Clear the entry textbox when the submit button is clicked
