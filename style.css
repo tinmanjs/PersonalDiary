@@ -33,3 +33,14 @@ body {
   padding: 1em;
   margin-left: 75%;
 }
+
+#entries {
+  background: #16697A;
+  color: #EDE7E3;
+  font-family: cursive;
+  border-radius: 25px;
+  padding: 2em;
+  max-width: 20em;
+  border: unset;
+  margin-top: 1em;
+}

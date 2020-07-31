@@ -33,3 +33,8 @@ Remove the CSS outline on the input field focus
 - On a new line, give the new div a class of 'single-entry'.
 - Change the div's innerText property to the user's input from the textbox
 - Use the appendChild method to add the new div to the entriesSection variable created on line 2
+
+### Challenge 8
+- Give the entries section the background color, #16697A (or any other color of your choice)
+- Give it the text color, #EDE7E3 (if you used your own color, this should be something that is visible on the background)
+- Like we did before, give it rounded edges.
