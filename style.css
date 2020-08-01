@@ -44,3 +44,15 @@ body {
   border: unset;
   margin-top: 1em;
 }
+
+.entries-nav {
+  padding-bottom: 1em;
+}
+
+.display-entry-button {
+    margin: 0.2em;
+}
+
+.display-entry-button:hover {
+  cursor: pointer;
+}

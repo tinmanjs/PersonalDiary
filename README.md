@@ -59,3 +59,8 @@ Remove the CSS outline on the input field focus
 ### Challenge 13
 - Add a click event listener to the displayEntryButton
 - Set the display property of the entryDiv to 'block' whenever it's clicked
+
+### Challenge 14
+- Target the div for the display-entry buttons and give it a bottom padding of 1em to separate it from the entry texts
+- Target the display-entry buttons and give each of them a margin of 0.2em to separate them from one another
+- Use the hover pseudo-class to change the cursor on the display-entry buttons to "pointer" whenever they are hovered on
