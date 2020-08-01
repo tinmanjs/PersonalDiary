@@ -64,3 +64,9 @@ Remove the CSS outline on the input field focus
 - Target the div for the display-entry buttons and give it a bottom padding of 1em to separate it from the entry texts
 - Target the display-entry buttons and give each of them a margin of 0.2em to separate them from one another
 - Use the hover pseudo-class to change the cursor on the display-entry buttons to "pointer" whenever they are hovered on
+
+### Challenge 15
+- Inside the displayEntryButton addEventListener function, create a new variable named 'allEntries'
+- use the document.queryselectorAll method to select all elements with the class of 'single-entry' and make that the value of the new allEntries variable
+- Use a for loop to iterate through all the elements in the allEntries variable
+- Set each element's style.display property to 'none'

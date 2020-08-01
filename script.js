@@ -26,6 +26,8 @@ const handleForm = e => {
     entriesNav.appendChild(displayEntryButton)
 
     displayEntryButton.addEventListener('click', function() { 
+      const allEntries = document.querySelectorAll('.single-entry')
+      allEntries.forEach(element => element.style.display = 'none')
       entryDiv.style.display = 'block'
     })
   } 
