@@ -43,4 +43,11 @@ Remove the CSS outline on the input field focus
 - Clear the entry textbox when the submit button is clicked
 
 ### Challenge 10
--   Hide the user's entry by default after it is appended to the entries section
+- Hide the user's entry by default after it is appended to the entries section
+
+### Challenge 11
+- Add navigation buttons for each user entry
+- In the handleForm() function, create a new variable named displayEntryButton.
+- Use the document.createElement method to create an HTML button and make that the value of the new variable.
+- Use the innerText property to set the button's inner text to "1";
+- Append the button to the entriesNav div we created on line 5.
