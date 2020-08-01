@@ -7,7 +7,7 @@ Create a new form with an ID of "entryForm"
 Inside the form, create a textarea with class of "entry-textbox"
 
 ### Challenge 2
-Add a button - and make the button render underneath the textarea.
+Add a button - and make the button render underneath the textarea
 
 ### Challenge 3
   - Go over to the index.html file and give the button a class of "button"
@@ -20,24 +20,24 @@ Add a button - and make the button render underneath the textarea.
 Remove the CSS outline on the input field focus
 
 ### Challenge 5
-- Create a variable named "entryForm" and use the document.getElementById method to make its value the entryForm from our HTML document.
-- Add an event listener to the entryForm variable that prevents the page from reloading whenever the submit button is clicked.
+- Create a variable named "entryForm" and use the document.getElementById method to make its value the entryForm from our HTML document
+- Add an event listener to the entryForm variable that prevents the page from reloading whenever the submit button is clicked
 
 ### Challenge 6
 - Create a new section in the index.html and give it an id of "entries"
 - Create a new variable named "entriesSection" and assign it a value of the HTML section we just created
 
 ### Challenge 7
-- Inside the handleForm function, create a new variable named entryDiv.
-- Use the document.createElement method to create an html Div and make it the new variable's value.
-- On a new line, give the new div a class of 'single-entry'.
+- Inside the handleForm function, create a new variable named entryDiv
+- Use the document.createElement method to create an html Div and make it the new variable's value
+- On a new line, give the new div a class of 'single-entry'
 - Change the div's innerText property to the user's input from the textbox
 - Use the appendChild method to add the new div to the entriesSection variable created on line 2
 
 ### Challenge 8
 - Give the entries section the background color, #16697A (or any other color of your choice)
 - Give it the text color, #EDE7E3 (if you used your own color, this should be something that is visible on the background)
-- Like we did before, give it rounded edges.
+- Like we did before, give it rounded edges
 
 ### Challenge 9
 - Clear the entry textbox when the submit button is clicked
@@ -47,11 +47,15 @@ Remove the CSS outline on the input field focus
 
 ### Challenge 11
 - Add navigation buttons for each user entry
-- In the handleForm() function, create a new variable named displayEntryButton.
-- Use the document.createElement method to create an HTML button and make that the value of the new variable.
-- Use the innerText property to set the button's inner text to "1";
-- Append the button to the entriesNav div we created on line 5.
+- In the handleForm() function, create a new variable named displayEntryButton
+- Use the document.createElement method to create an HTML button and make that the value of the new variable
+- Use the innerText property to set the button's inner text to "1"
+- Append the button to the entriesNav div we created on line 5
 
 ### Challenge 12
 - Increment the button count whenever the submit button is clicked
 - hint: use a variable to represent the displayButton.innerText value
+
+### Challenge 13
+- Add a click event listener to the displayEntryButton
+- Set the display property of the entryDiv to 'block' whenever it's clicked

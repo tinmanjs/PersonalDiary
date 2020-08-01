@@ -24,6 +24,10 @@ const handleForm = e => {
     displayEntryButton.className = 'display-entry-button'
     displayEntryButton.innerText = ++entries
     entriesNav.appendChild(displayEntryButton)
+
+    displayEntryButton.addEventListener('click', function() { 
+      entryDiv.style.display = 'block'
+    })
   } 
 
 // Add an event listener
