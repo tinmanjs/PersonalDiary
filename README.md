@@ -51,3 +51,7 @@ Remove the CSS outline on the input field focus
 - Use the document.createElement method to create an HTML button and make that the value of the new variable.
 - Use the innerText property to set the button's inner text to "1";
 - Append the button to the entriesNav div we created on line 5.
+
+### Challenge 12
+- Increment the button count whenever the submit button is clicked
+- hint: use a variable to represent the displayButton.innerText value

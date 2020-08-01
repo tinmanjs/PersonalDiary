@@ -7,6 +7,8 @@ const entriesNav = document.querySelector('.entries-nav')
 console.log(entryForm)
 console.log(entriesSection)
 
+let entries = 0
+
 // handler to deal with button click
 const handleForm = e => { 
     event.preventDefault()
@@ -20,7 +22,7 @@ const handleForm = e => {
     entryTextbox.value = ""
     const displayEntryButton = document.createElement('button')
     displayEntryButton.className = 'display-entry-button'
-    displayEntryButton.innerText = '1'
+    displayEntryButton.innerText = ++entries
     entriesNav.appendChild(displayEntryButton)
   } 
 
